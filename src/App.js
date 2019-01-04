@@ -3,6 +3,7 @@ import './App.css';
 import fullAlphabet from './alphabet.json';
 import Prompt from './Prompt.js';
 import Options from './Options.js';
+import Instructions from './Instructions.js';
 
 class App extends Component {
   constructor(props){
@@ -37,6 +38,7 @@ class App extends Component {
         <Prompt 
           alphabet={alphabet}
           background={this.state.background}/>
+        <Instructions />
       </div>
     );
   }

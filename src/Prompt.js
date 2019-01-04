@@ -97,7 +97,7 @@ export default class Prompt extends Component {
                     <div className="input-bar">
                         <div className="amount-shown">{this.state.amountShown} Shown</div>
                         <div className="input">
-                            <input type="text" name="answer" ref={el => this.inputField = el} value={this.state.inputValue} maxLength="3" onChange={this.checkInput} onKeyPress={this.handleKeyPress}/>
+                            <input type="text" name="answer" ref={el => this.inputField = el} value={this.state.inputValue} maxLength="3" onChange={this.checkInput} onKeyPress={this.handleKeyPress} autofocus/>
                         </div>
                         <div className="amount-correct">{this.state.amountCorrect} Correct</div>
                     </div>

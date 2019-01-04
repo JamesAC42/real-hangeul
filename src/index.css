@@ -8,6 +8,7 @@ div.header {
   top:0;
   left:0;
   margin:15px;
+  width:170px;
   height:40px;
   line-height:40px;
   text-align:center;
@@ -198,12 +199,11 @@ div.input input {
   height:40px;
   line-height:40px;
   border:none;
+  border-top:1px solid #fff;
+  border-bottom:1px solid #fff;
   outline:none;
   font-size:14px;
   text-align:center;
-  -webkit-box-shadow: 0px 0px 28px -17px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 28px -17px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 28px -17px rgba(0,0,0,0.75);
   background:none;
 }
 
@@ -216,9 +216,9 @@ div.options-container {
   top:0;
   left:0;
   margin:15px;
-  padding:10px;
+  padding:15px;
   transform:translateY(60px);
-  width:100px;
+  width:170px;
   background:rgba(255,255,255,0.8);
   border-radius:5px;
 }
@@ -226,7 +226,7 @@ div.options-container {
 div.options-row {
   margin:0;
   padding:0;
-  width:100px;
+  width:160px;
   float:left;
   display:flex;
   flex-direction:col;
@@ -234,7 +234,7 @@ div.options-row {
 
 div.option-header {
   height:30px;
-  width:100px;
+  width:170px;
   line-height:30px;
   font-size:16px;
   text-align:center;
@@ -243,17 +243,18 @@ div.option-header {
 }
 
 div.options-label {
-  flex-grow:1;
+  width:140px;
   height:30px;
   margin:0;
-  padding:0;
+  padding:0 5px;
   line-height:30px;
   font-size:16px;
+  text-align:left;
   color:rgb(28, 153, 101);
 }
 
 div.options-checkbox {
-  flex-grow:1;
+  width:30px;
   height:30px;
   margin:0;
   padding:0;
@@ -266,4 +267,20 @@ div.options-checkbox input {
   left:50%;
   transform:translate(-50%,-50%);
   margin:0;
+}
+
+div.instructions {
+  position:absolute;
+  top:0;
+  left:0;
+  margin:15px;
+  padding:15px;
+  transform:translateY(190px);
+  width:170px;
+  background:rgba(255,255,255,0.8);
+  border-radius:5px;
+  text-align:center;
+  color:rgb(74, 82, 197);
+  font-size:16px;
+  line-height:22px;
 }

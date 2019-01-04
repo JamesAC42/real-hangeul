@@ -27,13 +27,13 @@ export default class Options extends Component {
                     <div className="option-header">OPTIONS</div>
                 </div>
                 <div className="options-row">
-                    <div className="options-label">자음</div>
+                    <div className="options-label">자음 (Consonants)</div>
                     <div className="options-checkbox">
                         <input onChange={this.checkUncheck} checked={this.props.consonants} type="checkbox" name="consonant"/>
                     </div>
                 </div>
                 <div className="options-row">
-                    <div className="options-label">모음</div>
+                    <div className="options-label">모음 (Vowels)</div>
                     <div className="options-checkbox">
                         <input onChange={this.checkUncheck} checked={this.props.vowels} type="checkbox" name="vowel"/>
                     </div>
